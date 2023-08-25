@@ -1,9 +1,18 @@
 // confetti.js
 
-// Function to create and animate a confetti element
+// Function to create and animate a confetti element with random colors
 function createConfetti() {
     const confetti = document.createElement("div");
     confetti.classList.add("confetti");
+    
+    // Define an array of possible confetti colors
+    const confettiColors = ["#FFD700", "#FF6347", "#00FF7F", "#6495ED", "#FF69B4"];
+    
+    // Randomly select a color from the array
+    const randomColor = confettiColors[Math.floor(Math.random() * confettiColors.length)];
+    
+    // Set the selected color as the background color
+    confetti.style.backgroundColor = randomColor;
     
     // Set random position and rotation
     const positionX = Math.random() * window.innerWidth;
@@ -22,6 +31,7 @@ function createConfetti() {
         document.body.removeChild(confetti);
     });
 }
+
 
 // Function to display confetti
 function displayConfetti() {
