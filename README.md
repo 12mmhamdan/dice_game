@@ -16,7 +16,6 @@ Welcome to the Dice Game! This is a simple web-based dice game where players rol
 
 ## Features
 
-- Realistic dice rolling simulation.
 - Keep track of the score for each roll.
 - Option to reset the game and start over.
 
