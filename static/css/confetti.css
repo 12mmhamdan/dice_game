@@ -1,16 +1,13 @@
-/* confetti.css */
 
-/* Style for a single confetti piece */
 .confetti {
     position: fixed;
-    background-color: #ff0000; /* red color */
+    background-color: #ff0000; 
     width: 10px;
     height: 10px;
     border-radius: 50%;
     animation: confetti-fall 5s ease-out infinite;
 }
 
-/* Animation for the confetti falling */
 @keyframes confetti-fall {
     0% {
         transform: translateY(0) rotate(0deg);

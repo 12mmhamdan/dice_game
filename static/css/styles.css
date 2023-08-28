@@ -63,7 +63,6 @@ button:hover {
     background-color: #555;
 }
 
-/* Add a CSS class for the winning message animation */
 @keyframes scaleIn {
     0% {
         transform: scale(0);
@@ -79,7 +78,6 @@ button:hover {
     }
 }
 
-/* Apply the animation to the winning message */
 #win-message {
     animation: scaleIn 1.5s ease-in-out;
     transform-origin: center;
